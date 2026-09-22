@@ -64,7 +64,7 @@ with tab2:
     if run:
         model, device = load_model()
         hands, mp_hands, mp_draw = load_hands()
-        cap = cv2.VideoCapture(0)
+        cap = cv2.VideoCapture(1)
 
         while run:
             ret, frame = cap.read()
